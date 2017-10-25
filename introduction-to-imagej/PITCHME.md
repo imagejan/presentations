@@ -1,8 +1,0 @@
-### ImageJ
-
----
-
-### Usage
-
-Screenshot etc.
-

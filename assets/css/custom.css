@@ -1,0 +1,93 @@
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  text-transform: none;
+  font-variant: small-caps;
+  padding-top: 0.2em;
+  padding-bottom: 0.5em;
+}
+
+.reveal p {
+	font-size: smaller;
+}
+
+.reveal ul li {
+	font-size: smaller;
+}
+
+.reveal ol li {
+  font-size: smaller;
+}
+
+/* General image formatting */
+
+.reveal section img {
+  border: none;
+  box-shadow: none;
+}
+
+/* Task list formatting */
+
+.reveal table.steps {
+  width: 100%;
+}
+
+.reveal td.step-a {
+  background-color: #ff8080;
+  width: 20%;
+  font-weight: bold;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  clip-path: polygon(0% 95%, 90% 95%, 100% 50%, 90% 5%, 0% 5%, 10% 50%, 0% 95%);
+  font-size: 0.5em;
+  border-bottom: none;
+}
+.reveal td.step-b {
+  background-color: #ffb280;
+  width: 40%;
+  padding-left: 1em;
+  clip-path: polygon(0% 95%, 95% 95%, 100% 50%, 95% 5%, 0% 5%, 5% 50%, 0% 95%);
+  font-size: 0.5em;
+  border-bottom: none;
+}
+.reveal td.step-c {
+  background-color: #ffe580;
+  width: 40%;
+  padding-left: 1em;
+  clip-path: polygon(0% 95%, 95% 95%, 100% 50%, 95% 5%, 0% 5%, 5% 50%, 0% 95%);
+  font-size: 0.5em;
+  border-bottom: none;
+}
+
+/* Custom highlighting*/
+
+.reveal .hilit {
+	color: red;
+}
+
+.reveal .hint {
+	background-color: #ffb280;
+	padding-left: 1em;
+	padding-right: 1em;
+	clip-path: polygon(0% 97%, 97% 97%, 100% 50%, 97% 3%, 0% 3%, 3% 50%, 0% 97%);
+}
+
+.reveal .url {
+
+}
+
+/* Keyboard shortcut hints*/
+
+.reveal kbd {
+	font-family: monospace;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+	background-color: #EEEEEE;
+}
